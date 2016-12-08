@@ -7,3 +7,9 @@ while not is_valid:
     else:
         is_valid = True
 print(name)
+for c in name:
+    print(c)
+print('===')
+for i in range(0, len(name),2):
+    if name[i] != ' ':
+        print(name[i])
