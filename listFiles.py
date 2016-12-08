@@ -1,3 +1,6 @@
+"""
+Output files in the current folder
+"""
 import os
 print("The files and folders in {} are:".format(os.getcwd()))
 items = os.listdir('.')
